@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/Ben/workspace3/VoidEngine/lib/natvies-win"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/slick-util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/PNGDecoder.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/aspose.imaging-3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/aspose.imaging-3.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/common-image-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/common-io-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/common-lang-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-batik-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-bmp-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-clippath-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-core-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-hdr-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-icns-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-iff-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-jpeg-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-metadata-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-pcx-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-pdf-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-pict-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-pnm-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-psd-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-reference-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-sgi-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-tga-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-thumbsdb-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/imageio-tiff-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/servlet-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ben/workspace3/VoidEngine/lib/jars/batik-transcoder.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
