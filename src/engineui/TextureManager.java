@@ -73,7 +73,7 @@ public class TextureManager
 		
 		model = new DefaultListModel();
 		list = new JList(model);
-		list.setVisibleRowCount(10);
+		//list.setVisibleRowCount(10);
 		list.setCellRenderer(new TextureListRenderer());
 		list.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
 		list.setVisibleRowCount(2);

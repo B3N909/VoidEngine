@@ -87,6 +87,7 @@ public class World
 		this.waterRenderer = waterRenderer;
 		instance = GameEngine.getInstance();
 		fbos = instance.getWaterBuffer();
+		GameScript.world = this;
 	}
 	
 	WaterFrameBuffers fbos;

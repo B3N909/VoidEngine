@@ -9,6 +9,7 @@ public abstract class GameScript
 {
 	private static List<GameScript> scripts = new ArrayList<GameScript>();
 	public static Universe universe;
+	public static World world;
 	
 	public GameScript()
 	{
@@ -54,6 +55,11 @@ public abstract class GameScript
 	public Loader getLoader()
 	{
 		return universe.loader;
+	}
+	
+	public World getWorld()
+	{
+		return world;
 	}
 	
 	public abstract void update();
