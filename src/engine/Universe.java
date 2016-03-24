@@ -21,6 +21,7 @@ import render.MasterRenderer;
 import shader.NormalMappingShader;
 import shader.StaticShader;
 import shader.TerrainShader;
+import shadows.ShadowShader;
 import skybox.SkyboxShader;
 import water.WaterFrameBuffers;
 import water.WaterRenderer;
@@ -94,6 +95,9 @@ public class Universe
 		ParticleShader.vertexShader = "src/shaders/particleVertex.txt";
 		ParticleShader.fragmentShader = "src/shaders/particleFragment.txt";
 		
+		ShadowShader.vertexShader = "src/shaders/shadowVertexShader.txt";
+		ShadowShader.fragmentShader = "src/shaders/shadowFragmentShader.txt";
+		
 		//Setup Shader Textures
 		WaterRenderer.DUDV_MAP = "res/dudvWaterMap.png";
 		WaterRenderer.NORMAL_MAP = "res/normalWaterMap.png";
@@ -113,9 +117,9 @@ public class Universe
 		while(!Display.isCloseRequested())
 		{
 			GameScript.hardUpdate();
-			gameEngine.update();
 			display.updateDisplay();
 			GameScript.hardLateUpdate();
+			gameEngine.update();
 		}
 		ParticleMaster.cleanUp();
 		TextMaster.cleanUp();

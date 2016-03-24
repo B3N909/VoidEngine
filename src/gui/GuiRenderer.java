@@ -35,14 +35,17 @@ public class GuiRenderer
 		GL11.glDisable(GL11.GL_DEPTH_TEST);
 		for(GuiTexture gui : guis)
 		{
-			if(gui.isEnabled())
+			if(gui != null)
 			{
-				GL13.glActiveTexture(GL13.GL_TEXTURE0);
-				GL11.glBindTexture(GL11.GL_TEXTURE_2D, gui.getTexture());
-				Matrix4f matrix = Maths.createTransformationMatrix(gui.getPosition(), gui.getScale());
-				shader.loadTransformation(matrix);
-				shader.loadScale(gui.getScale());
-				GL11.glDrawArrays(GL11.GL_TRIANGLE_STRIP, 0, quad.getVertexCount());
+				if(gui.isEnabled())
+				{
+					GL13.glActiveTexture(GL13.GL_TEXTURE0);
+					GL11.glBindTexture(GL11.GL_TEXTURE_2D, gui.getTexture());
+					Matrix4f matrix = Maths.createTransformationMatrix(gui.getPosition(), gui.getScale());
+					shader.loadTransformation(matrix);
+					shader.loadScale(gui.getScale());
+					GL11.glDrawArrays(GL11.GL_TRIANGLE_STRIP, 0, quad.getVertexCount());
+				}
 			}
 		}
 		GL11.glEnable(GL11.GL_DEPTH_TEST);

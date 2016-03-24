@@ -33,6 +33,23 @@ public class GuiTexture
 		GuiManager.addEntry(this);
 	}
 	
+	public GuiTexture(int texture, Vector2f position, Vector2f scale)
+	{
+		this.texture = texture;
+		this.textureName = "internal file";
+		this.thumbnail = ImageReader.readThumbnail(new File("res/Engine/notFound.png"), 100, 100);
+		this.position = position;
+		this.scale = scale;
+		this.uuid = UUID.randomUUID();
+		GuiListRenderer.addIcons(thumbnail, textureName, uuid);
+		GuiManager.addEntry(this);
+	}
+	
+	public void setTexture(int texture)
+	{
+		this.texture = texture;
+	}
+	
 	public UUID getUUID()
 	{
 		return uuid;
